@@ -77,6 +77,9 @@ def test_supports_lambda_extension():
         supports_lambda_extension(runtime)
         for runtime in (
             "dotnetcore3.1",
+            "dotnet6",
+            "dotnet7",
+            "dotnet8",
             "java21",
             "java17",
             "java11",
